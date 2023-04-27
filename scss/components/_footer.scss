@@ -1,0 +1,33 @@
+.flex-footer {
+    @include flex-index(row,space-between, start, 10px)
+}
+
+/* IMAGENES ALAS */
+
+.mauro {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.duko-img {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+}
+
+/* REDES SOCIALES Y TEXTO */
+
+.footer-list {
+    @include flex-index(row, center, center, 10px);
+    padding-top: 30px;
+    object-fit: cover;
+
+}
+
+footer p {
+    color: $color-text;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 20px;
+}

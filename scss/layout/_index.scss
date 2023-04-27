@@ -1,0 +1,36 @@
+main {
+    color: $color-mian;
+}
+
+.flex-index {
+    @include flex-index(row, center, start, 15px);
+    background-color: $color-mian;
+
+    img {
+        width: 300px;
+        height: 900px;
+        object-fit: cover;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        padding: 20px;
+        color: $color-text;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+        color: $color-text;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 18px;
+        padding: 20px;
+        color: $color-text;
+    }
+
+}

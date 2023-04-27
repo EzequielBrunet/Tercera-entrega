@@ -1,0 +1,78 @@
+.h1-galeria {
+    text-align: center;
+    color: $color-text;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: auto;
+    grid-template-areas:
+        'area1 area2 area3'
+        'area4 area5 area6'
+    ;
+
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 15px;
+
+    img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .c1 {
+        grid-area: area1;
+    }
+
+    .c2 {
+        grid-area: area2;
+    }
+
+    .c3 {
+        grid-area: area3;
+    }
+
+    .c4 {
+        grid-area: area4;
+    }
+
+    .c5 {
+        grid-area: area5;
+    }
+
+    .c6 {
+        grid-area: area6;
+    }
+}
+
+.h2-galeria {
+    text-align: center;
+    font-size: 20px;
+    color: $color-text;
+}
+
+.grilla2 {
+    @include flex-index(row, center, center, 10px);
+
+    h3 {
+        font-size: 20px;
+        color: $color-text;
+        text-align: center;
+        background-color: black;
+    }
+}
+
+.grilla3 {
+    @include flex-index(row, center, center, 10px);
+
+    h3 {
+        font-size: 20px;
+        background-color: black;
+        text-align: center;
+        color: $color-text;
+        font-family: $text;
+    }
+}

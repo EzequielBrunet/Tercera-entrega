@@ -1,0 +1,24 @@
+.discografia {
+    text-align: center;
+    color: $color-text;
+    padding: 10px
+}
+
+.inicio-disco {
+    @include flex-index(row, space-evenly, center, 0px);
+    color: $color-text;
+    text-align: center;
+}
+
+.card {
+    background-color: #fdfdfd;
+
+    .btn {
+        background-color: rgb(189, 0, 189);
+    }
+}
+
+.discos {
+    @include flex-index(row, space-around, center, 20px);
+    padding: 15px;
+}

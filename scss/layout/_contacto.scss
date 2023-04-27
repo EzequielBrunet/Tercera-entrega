@@ -1,0 +1,58 @@
+// TEXTO CONTACTO
+.sec-contacto {
+    @include flex-index(row, center, center, 10px);
+    color: $color-text;
+    padding: 40px;
+
+    .contacto1 {
+        margin: 20px;
+        font-size: 25px;
+        font-family: $text;
+        text-align: center;
+    }
+
+    .parrafo-contacto {
+        font-size: 16px;
+        font-family: $text;
+        margin: 30px;
+        text-align: justify;
+    }
+}
+
+// FORMULARIO
+.form-register {
+    width: 500px;
+    background-color: #000000;
+    padding: 30px;
+    margin: auto;
+    border-radius: 5px;
+    font-family: $text;
+    color: $color-text;
+
+    .form {
+        width: 100%;
+        background-color: #fcfcfc;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        font-family: $text;
+        font-size: 15px;
+        color: black;
+    }
+
+    .boton {
+        width: 100%;
+        background-color: #f3f3f3;
+        border: none;
+        padding: 10px;
+        color: black;
+        margin: 16px 0;
+        font-size: 15px;
+    }
+
+    .boton:hover {
+        background-color: transparent;
+        border: 2px solid rgb(70, 31, 70);
+        color: $color-text;
+    }
+}

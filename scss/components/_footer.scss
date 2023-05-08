@@ -19,10 +19,15 @@
 /* REDES SOCIALES Y TEXTO */
 
 .footer-list {
-    @include flex-index(row, center, center, 10px);
-    padding-top: 30px;
+    @include flex-index(row, space-evenly, start, 10px);
+    margin-top: 10px;
+    padding: 5px;
     object-fit: cover;
-
+    
+    img{
+       
+        object-fit: cover;
+    }
 }
 
 footer p {

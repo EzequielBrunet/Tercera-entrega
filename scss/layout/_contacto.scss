@@ -1,27 +1,27 @@
 // TEXTO CONTACTO
 .sec-contacto {
-    @include flex-index(row, center, center, 10px);
+    @include flex-index(column, center, center, 10px);
     color: $color-text;
     padding: 40px;
 
-    .contacto1 {
-        margin: 20px;
-        font-size: 25px;
+    h1{
+        font-size: 30px;
+        text-align: center;    
         font-family: $text;
-        text-align: center;
     }
 
-    .parrafo-contacto {
-        font-size: 16px;
+    p {
+        font-size: 18px;
         font-family: $text;
         margin: 30px;
         text-align: justify;
     }
 }
 
+
 // FORMULARIO
 .form-register {
-    width: 500px;
+    width: 300px;
     background-color: #000000;
     padding: 30px;
     margin: auto;
@@ -55,4 +55,5 @@
         border: 2px solid rgb(70, 31, 70);
         color: $color-text;
     }
+
 }

@@ -1,11 +1,5 @@
-main {
-    color: $color-mian;
-}
-
 .flex-index {
     @include flex-index(column, center, center, 10px);
-    background-color: $color-mian;
-
 
     img{
         width: 100%;
